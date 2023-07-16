@@ -1,9 +1,9 @@
-variable "TF_VAR_prefix" {
+variable "prefix" {
   type        = string
   description = "(Required) This prefix will be included in the name of most resources."
 }
 
-variable "TF_VAR_project" {
+variable "project" {
   type        = string
   description = "(Required) Application project name."
 }
