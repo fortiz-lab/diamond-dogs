@@ -1,11 +1,11 @@
-variable "prefix" {
+variable "TF_VAR_prefix" {
   type        = string
-  description = "(Optional) This prefix will be included in the name of most resources."
+  description = "(Required) This prefix will be included in the name of most resources."
 }
 
-variable "project" {
+variable "TF_VAR_project" {
   type        = string
-  description = "(Optional) Application project name."
+  description = "(Required) Application project name."
 }
 
 variable "environment" {
