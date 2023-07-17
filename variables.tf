@@ -1,13 +1,11 @@
 variable "prefix" {
   type        = string
   description = "(Required) This prefix will be included in the name of most resources."
-  default     = null
 }
 
 variable "project" {
   type        = string
   description = "(Required) Application project name."
-  default     = "null"
 }
 
 variable "environment" {
